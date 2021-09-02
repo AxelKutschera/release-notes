@@ -214,11 +214,13 @@ The main focus of this sprint was to further enhance the Portal's UI and UX, esp
 ## October 28, 2020
 
 ### Middleware 1.3.10
-We're happy to announce that starting from this version, we provide SCUs for all currently certified TSEs, as well as SCUs for two major cloud TSEs that are currently in certification (fiskaly and A-Trust). While some of those are still only available on the sandbox, we consider them production-ready and are working closely with our partners to push them to production as soon as possible.
+We're happy to announce that starting from this version, we provide SCUs for all currently certified TSEs, as well as SCUs for two major cloud TSEs that are currently in certification (fiskaly and A-Trust*)). While some of those are still only available on the sandbox, we consider them production-ready and are working closely with our partners to push them to production as soon as possible.
 
 In addition to this, we resolved several important stability issues in version 1.3.10, which should result in an overall greatly increased reliability, especially when working with Swissbit SCUs. Also, we fixed an important issue in our SQLite implementation that lead to data not being 100% correctly read from the database (although no data was lost, as everything was written correctly).
 
 [Middleware 1.3.10 Release Notes](middleware/middleware-1.3.10.md)
+
+*) **Update 06.08.2021:** a-trust paused the product [Link @a-trust: "Status Update August" ](https://www.a-trust-tse.de/de/kassensichv/news/news/status-update-august/)
 
 
 ## October 26, 2020

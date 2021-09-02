@@ -25,10 +25,12 @@ Finally, we are working hard on getting the Apps to the Play store as well, and 
 
 ![android-download](images/sprint-86/android-download.png)
 
-#### Configuration pages for _ATrust_, _Epson_ and _Deutsche Fiskal_ SCUs (DE)
+#### Configuration pages for _ATrust_ *), _Epson_ and _Deutsche Fiskal_ SCUs (DE)
 To simplify the creation of our newly added SCUs, we added configuration pages for _ATrust_, _Epson_ and _Deutsche Fiskal_. This means that while creating one of these respective components, users are now prompted to enter the required configuration parameters.
 
 When ordering these items via the shop, SCUs with the appropriate configuration are automatically created.
+
+*) **Update 06.08.2021:** a-trust paused the product [Link @a-trust: "Status Update August" ](https://www.a-trust-tse.de/de/kassensichv/news/news/status-update-august/)
 
 #### Enforce _CashboxIdentification_ rules when creating templates (DE)
 In a previous sprint, we introduced specific rules for the _CashboxIdentification_ field, as it's used as the TSE client ID and therefore has to fulfill certain requirements defined by the hardware producers. To avoid the creation of non-supported values, we now also enforce these validation rules when users create templates.
